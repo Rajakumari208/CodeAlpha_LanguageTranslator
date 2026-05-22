@@ -1,19 +1,26 @@
 # 🌍 AI Language Translation Tool
 
-This project is developed as part of the CodeAlpha Artificial Intelligence Internship.
+An AI-powered multilingual translation application developed using Python and Streamlit.
 
 ## 🚀 Features
-- Translate text between multiple languages
-- User-friendly interface
-- Copy translated text
-- Fast and accurate translation
+
+- 🌐 Multi-language translation
+- 🎤 Voice input support
+- 🔊 Text-to-speech output
+- 📋 Copy translated text
+- 🌙 Modern dark UI
+- ⚡ Fast and user-friendly
 
 ## 🛠 Technologies Used
+
 - Python
 - Streamlit
-- Deep Translator API
+- Deep Translator
+- gTTS
+- Streamlit Mic Recorder
 
-## ▶ Run Project
+## ▶ Run Locally
 
 ```bash
+pip install -r requirements.txt
 streamlit run app.py
